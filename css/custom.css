@@ -1,0 +1,37 @@
+.banner {
+	background-image: linear-gradient(rgba(47, 40, 232, 0.85), rgba(47, 40, 232, 0.85)), url('../img/custom/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	/* animation-duration: 20s; */
+}
+
+.fluid {
+	color: #040426;
+}
+
+.about-image {
+	object-fit: cover;
+	height: 215px !important;
+	width: 215px !important;
+}
+
+.logo {
+	width: 200px;
+	height: 40px;
+	object-fit: cover;
+}
+
+.tick-logo {
+	width: 50px;
+	height: 50px;
+}
+
+.tick-logo-icon {
+	color: rgba(47, 40, 232);
+}
+
+.image-fluid-custom {
+	width: 335px;
+	object-fit: cover;
+	height: 185px;
+}
