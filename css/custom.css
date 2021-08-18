@@ -5,6 +5,10 @@
 	/* animation-duration: 20s; */
 }
 
+.banner-2 {
+	background-image: linear-gradient(rgba(47, 40, 232, 0.85), rgba(47, 40, 232, 0.85)), url('../img/custom/banner-2.jpg');
+}
+
 .fluid {
 	color: #040426;
 }
@@ -75,15 +79,31 @@
 	align-items: flex-start;
 	margin-top: 10px;
 	column-gap: 30px;
+	width: max-content;
+	align-items: center;
 }
 
 .list-of-services--recruit {
-	width: max-content;
-	align-items: center;
 }
 
 @media all and (max-width: 600px) {
 	.list-of-services {
 		grid-template-columns: 1fr;
+	}
+}
+
+.about-image-container--expertise {
+	width: max-content;
+}
+
+.area-expertise {
+	display: flex;
+	flex-wrap: nowrap;
+	column-gap: 40px;
+}
+
+@media all and (max-width: 800px) {
+	.area-expertise {
+		flex-wrap: wrap;
 	}
 }
