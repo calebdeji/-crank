@@ -83,9 +83,6 @@
 	align-items: center;
 }
 
-.list-of-services--recruit {
-}
-
 @media all and (max-width: 600px) {
 	.list-of-services {
 		grid-template-columns: 1fr;
