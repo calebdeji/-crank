@@ -52,6 +52,17 @@
 	color: rgba(47, 40, 232);
 }
 
+.tick-logo-icon svg {
+	width: 20px;
+	height: 20px;
+	color: white;
+}
+
+.tick-logo-icon--white svg * {
+	color: white;
+	fill: white;
+}
+
 .image-fluid-custom {
 	width: 335px;
 	object-fit: cover;
@@ -61,13 +72,14 @@
 .list-of-services {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	align-items: center;
+	align-items: flex-start;
 	margin-top: 10px;
 	column-gap: 30px;
 }
 
 .list-of-services--recruit {
 	width: max-content;
+	align-items: center;
 }
 
 @media all and (max-width: 600px) {
