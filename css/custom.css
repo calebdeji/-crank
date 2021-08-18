@@ -83,6 +83,10 @@
 	align-items: center;
 }
 
+.list-of-services h4 {
+	font-weight: normal !important;
+}
+
 @media all and (max-width: 600px) {
 	.list-of-services {
 		grid-template-columns: 1fr;
