@@ -14,5 +14,5 @@ function startCarouselTimer() {
 		}
 
 		isFirstCarouselActive = !isFirstCarouselActive;
-	}, 10000);
+	}, 2000);
 }
