@@ -11,8 +11,30 @@
 
 .about-image {
 	object-fit: cover;
-	height: 215px !important;
-	width: 215px !important;
+	height: 350px;
+	width: 350px;
+	border-radius: 5px;
+}
+
+@media all and (max-width: 600px) {
+	.about-image-container {
+		display: block;
+		width: 100%;
+	}
+
+	.about-image {
+		width: 100% !important;
+	}
+
+	.separator {
+		display: grid;
+		grid-auto-flow: row;
+	}
+}
+
+.services {
+	display: flex;
+	justify-content: flex-end;
 }
 
 .logo {
@@ -34,4 +56,22 @@
 	width: 335px;
 	object-fit: cover;
 	height: 185px;
+}
+
+.list-of-services {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	margin-top: 10px;
+	column-gap: 30px;
+}
+
+.list-of-services--recruit {
+	width: max-content;
+}
+
+@media all and (max-width: 600px) {
+	.list-of-services {
+		grid-template-columns: 1fr;
+	}
 }
