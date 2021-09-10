@@ -1,12 +1,16 @@
 .banner {
-	background-image: linear-gradient(rgba(47, 40, 232, 0.85), rgba(47, 40, 232, 0.85)), url('../img/custom/banner.jpg');
+	background-image: url('../img/custom/Crank\ Landing\ Page\ Banner\ 01.png');
 	background-size: cover;
 	background-position: center;
 	/* animation-duration: 20s; */
 }
 
 .banner-2 {
-	background-image: linear-gradient(rgba(47, 40, 232, 0.85), rgba(47, 40, 232, 0.85)), url('../img/custom/banner-2.jpg');
+	background-image: url('../img/custom/Crank\ Landing\ Page\ Banner\ 02.png');
+}
+
+.welcome-text {
+	text-align: left;
 }
 
 .fluid {
@@ -107,4 +111,73 @@
 	.area-expertise {
 		flex-wrap: wrap;
 	}
+}
+
+.area-of-expertise,
+.services-recruit {
+	display: flex;
+	flex-direction: column;
+}
+
+.services-recruit {
+	padding-bottom: 175px;
+}
+
+.area-of-expertise-heading,
+.services-heading {
+	padding-bottom: 91px;
+}
+
+.area-of-expertise-heading *,
+.services-heading * {
+	text-align: center;
+	padding: 30px 20% 0;
+}
+
+.area-of-expertise-body,
+.service-body {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 210px));
+	/* padding: 0 200px; */
+	align-items: center;
+	max-width: 90%;
+	margin: auto;
+	row-gap: 80px;
+}
+
+.area-of-expertise-body p,
+.service-body p {
+	font-weight: 500;
+	color: #000000 !important;
+}
+
+@media all and (min-width: 800px) {
+	.area-of-expertise-body,
+	.service-body {
+		max-width: 70%;
+	}
+}
+
+.area-of-expertise-body-item img {
+	margin: auto;
+	display: block;
+}
+
+.area-of-expertise-body img,
+.service-body img {
+	margin-bottom: 13.92px;
+	display: block;
+}
+
+.area-of-expertise-body-item * {
+	text-align: center;
+}
+
+.service-banner {
+	padding: 263px 0 259px;
+}
+
+.service-banner-image {
+	height: 510px;
+	object-fit: cover;
 }
