@@ -24,6 +24,12 @@
 	border-radius: 5px;
 }
 
+#our-team img {
+	width: 392px !important;
+	object-fit: contain;
+	height: 220px !important;
+}
+
 @media all and (max-width: 600px) {
 	.about-image-container {
 		display: block;
